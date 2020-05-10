@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNegro"
+    tools:context=".CalendarioActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Calendario"
+        android:textColor="@color/colorBlanco"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etTexto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/colorBlanco"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Recordatorio"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <DatePicker
+        android:id="@+id/dpFecha"
+        android:layout_width="345dp"
+        android:layout_height="406dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorBlanco"
+        android:headerBackground="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="@+id/etTexto"
+        app:layout_constraintStart_toStartOf="@+id/etTexto"
+        app:layout_constraintTop_toBottomOf="@+id/etTexto"></DatePicker>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="235dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Guardar Recordatorio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/dpFecha"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="@+id/dpFecha"
+        app:layout_constraintTop_toBottomOf="@+id/dpFecha" />
+</android.support.constraint.ConstraintLayout>

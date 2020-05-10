@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multiaplicacion</string>
+    <string name="Lapiz">Pencil</string>
+    <string name="Casa">House</string>
+    <string name="Avion">Air Plane</string>
+    <string name="Gafas">Glasses</string>
+    <string name="Bus">Bus</string>
+    <string name="Tren">Train</string>
+    <string name="Arbol">Tree</string>
+    <string name="Balon">Ball</string>
+    <string name="Circulo">Circle</string>
+    <string name="Niños">Kids</string>
+</resources>

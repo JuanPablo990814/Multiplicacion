@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNegro"
+    tools:context=".UnidadActivity">
+
+    <EditText
+        android:id="@+id/txtValoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:backgroundTint="@color/colorBlanco"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/lblTipoConversionu2"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/swUnidadu2"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultadou" />
+
+    <TextView
+        android:id="@+id/lblTipoConversionu2"
+        android:layout_width="186dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="LITROS A GALONES"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/lblResultadou"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toEndOf="@+id/swUnidadu2"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultadou" />
+
+    <TextView
+        android:id="@+id/lblResultadou2"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Resultado"
+        android:textColor="@color/colorBlanco"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnConversionu2"
+        app:layout_constraintStart_toStartOf="@+id/btnConversionu2"
+        app:layout_constraintTop_toBottomOf="@+id/btnConversionu2" />
+
+    <Switch
+        android:id="@+id/swUnidadu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Tipo de Unidad"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/lblResultadou"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/lblResultadou"
+        app:layout_constraintTop_toBottomOf="@+id/lblResultadou" />
+
+    <Button
+        android:id="@+id/btnConversionu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Convertir"
+        app:layout_constraintEnd_toEndOf="@+id/txtValoru2"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/txtValoru2"
+        app:layout_constraintTop_toBottomOf="@+id/txtValoru2" />
+
+    <Switch
+        android:id="@+id/swUnidadu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tipo de Unidad"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/lblResultadou"
+        android:layout_width="327dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Resultado"
+        android:textColor="@color/colorBlanco"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnConversionu"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/btnConversionu"
+        app:layout_constraintTop_toBottomOf="@+id/btnConversionu" />
+
+    <TextView
+        android:id="@+id/lblTipoConversionu"
+        android:layout_width="186dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="KILOMETROS A MILLAS"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/swUnidadu"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnConversionu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Convertir"
+        app:layout_constraintEnd_toEndOf="@+id/txtValoru"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/txtValoru"
+        app:layout_constraintTop_toBottomOf="@+id/txtValoru" />
+
+    <EditText
+        android:id="@+id/txtValoru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:backgroundTint="@color/colorBlanco"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="@+id/lblTipoConversionu"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/swUnidadu"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Conversor de Unidades"
+        android:textColor="@color/colorBlanco"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

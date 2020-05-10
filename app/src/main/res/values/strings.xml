@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Multiaplicacion</string>
+    <string name="Lapiz">Lapiz</string>
+    <string name="Casa">Casa</string>
+    <string name="Avion">Avion</string>
+    <string name="Gafas">Gafas</string>
+    <string name="Bus">Bus</string>
+    <string name="Tren">Tren</string>
+    <string name="Arbol">Arbol</string>
+    <string name="Balon">Balon</string>
+    <string name="Circulo">Circulo</string>
+    <string name="Niños">Niños</string>
+
+    <string-array name="Español">
+        <item>Lapiz</item>
+        <item>Casa</item>
+        <item>Avion</item>
+        <item>Gafas</item>
+        <item>Bus</item>
+        <item>Tren</item>
+        <item>Arbol</item>
+        <item>Balon</item>
+        <item>Circulo</item>
+        <item>Niños</item>
+    </string-array>
+
+    <string-array name="Ingles">
+        <item>Pencil</item>
+        <item>House</item>
+        <item>Plane</item>
+        <item>Glasses</item>
+        <item>Bus</item>
+        <item>Train</item>
+        <item>Tree</item>
+        <item>Ball</item>
+        <item>Circle</item>
+        <item>Kids</item>
+    </string-array>
+
+    <string-array name="Tiposcontactos">
+        <item>Movil</item>
+        <item>Fijo</item>
+        <item>Trabajo</item>
+    </string-array>
+</resources>
